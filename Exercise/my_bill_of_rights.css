@@ -1,0 +1,38 @@
+body {
+  background-color:black;
+}
+
+h1 {
+  color:red;
+  font-size:50px;
+  font-family:courier;
+  background-color:white;
+}
+
+h1:hover {
+  color:grey;
+  font-size:60px;
+}
+
+h2 {
+  color:grey;
+  font-size:40px;
+  font-family:courier;
+  background-color:white;
+}
+
+h2:hover {
+  color:red;
+  font-size:50px;
+}
+
+p {
+  color:white;
+  font-size:25px;
+  font-family:courier;
+}
+
+p:hover {
+  color:lime;
+  font-size:30px;
+}
