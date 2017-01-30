@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 35px;
+  background-color:grey;
+}
+
+p {
+  color: grey;
+  font-style:italic;
+  font-size:25px;
+}
+
+h2 {
+  color: black;
+  font-size: 35px;
+  background-color:grey;
+}
+
+h3 {
+  color: black;
+  font-size: 35px;
+  background-color:grey;
+}
