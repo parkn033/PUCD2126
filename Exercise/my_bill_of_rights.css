@@ -15,7 +15,7 @@ h1:hover {
 }
 
 h2 {
-  color:grey;
+  color:lime;
   font-size:40px;
   font-family:courier;
   background-color:white;
@@ -35,4 +35,5 @@ p {
 p:hover {
   color:lime;
   font-size:30px;
+  bcakground-color:grey;
 }
