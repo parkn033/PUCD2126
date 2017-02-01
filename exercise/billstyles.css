@@ -9,7 +9,7 @@ h1 {
   font-family:verdana;
   background-color:white;
   text-align:center;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px 1px #000;
 }
 
 h1:hover {
@@ -23,7 +23,7 @@ h2 {
   font-family:verdana;
   background-color:white;
   text-align:center;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 1px 1px 1px #000;
 }
 
 h2:hover {
