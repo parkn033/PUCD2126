@@ -6,7 +6,7 @@ body {
 h1 {
   color:lime;
   font-size:90px;
-  font-family:times;
+  font-family:verdana;
   background-color:white;
   text-align:center;
 }
@@ -19,7 +19,7 @@ h1:hover {
 h2 {
   color:lime;
   font-size:40px;
-  font-family:courier;
+  font-family:verdana;
   background-color:white;
   text-align:center;
 }
