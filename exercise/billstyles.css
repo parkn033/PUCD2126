@@ -48,3 +48,7 @@ p:click {
   background-color:lime;
   font-size:50px;
 }
+
+li {
+  background-color:white;
+}
