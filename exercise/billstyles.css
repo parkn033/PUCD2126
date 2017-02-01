@@ -1,11 +1,12 @@
 body {
   background-color:black;
+  opacity:80%;
 }
 
 h1 {
   color:red;
-  font-size:50px;
-  font-family:courier;
+  font-size:90px;
+  font-family:times;
   background-color:white;
 }
 
