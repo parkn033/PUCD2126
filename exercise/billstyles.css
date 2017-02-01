@@ -8,6 +8,7 @@ h1 {
   font-size:90px;
   font-family:times;
   background-color:white;
+  text-align:center;
 }
 
 h1:hover {
@@ -20,6 +21,7 @@ h2 {
   font-size:40px;
   font-family:courier;
   background-color:white;
+  text-align:center;
 }
 
 h2:hover {
