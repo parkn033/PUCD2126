@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  background-color:grey;
+  font-family:times;
+}
+
+h2 {
+  color: white;
+  font-size: 35px;
+  background-color:grey;
+  font-family:times;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+  font-family:arial;
+}
+
+p {
+  color:black;
+  background-color:white;
+  font-family:times;
+}
