@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 65px;
+  font-size:65px;
   background-color:grey;
   font-family:times;
   text-shadow: 1px 1px 1px #000;
@@ -20,7 +20,7 @@ h2 {
 
 li {
   color: white;
-  font-size: 50px;
+  font-size:50px;
   font-family:arial;
 }
 
@@ -28,4 +28,10 @@ p {
   color:white;
   font-family:times;
   font-size:50px;
+}
+
+li:hover {
+  font-size:65px;
+  background-color:white;
+  color:green;
 }
