@@ -1,0 +1,15 @@
+p + p {
+  font-style: italic;
+}
+
+#foo ~ span {
+  background-color:black;
+  color:white;
+}
+
+#container > p > span {
+  font-family:fantasy;
+}
+
+child = >
+general setting = ~
