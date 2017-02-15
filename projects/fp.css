@@ -27,8 +27,8 @@ body {
   width:100%;
 }
 
-.ccontainer6 {
-  background-color:grey;
+.container6 {
+  background-color:white;
   width:100%;
 }
 
@@ -50,6 +50,7 @@ h1 {
 
 p + p {
   font-style: bold;
+  color: red;
 }
 
 p:hover {
