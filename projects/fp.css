@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-  color:white;
+  background-color:white;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 }
 
 .headcontainer {
-  color:grey;
+  background-color:grey;
 }
 
 h1 {
