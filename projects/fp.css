@@ -7,50 +7,25 @@ body {
   width:100%;
 }
 
-.container2 {
-  background-color:grey;
-  width:100%;
-}
-
-.container3 {
-  background-color:white;
-  width:100%;
-}
-
-.container4 {
-  background-color:grey;
-  width:100%;
-}
-
-.container5 {
-  background-color:white;
-  width:100%;
-}
-
-.container6 {
-  background-color:white;
-  width:100%;
-}
-
 p {
-  color:blue;
+  color:red;
   font-family:courier;
-  text-align:center;
+  text-align: center;
 }
 
 .headcontainer {
-  background-color:grey;
-  100%
+  background-color:blue;
 }
 
 h1 {
   font-family:arial;
   color:white;
+  text-align:center;
 }
 
 p + p {
-  font-style: bold;
-  color: red;
+  font-style:bold;
+  color: blue;
 }
 
 p:hover {
@@ -60,4 +35,31 @@ p:hover {
 
 p:active {
   margin:15px;
+  color:red;
+  background-color:blue;
+}
+
+h1:hover {
+  background-color:red;
+}
+
+h1:active {
+  background-color:orange
+}
+
+h1:after {
+  content: '☛';
+  color: white;
+  margin-left: 5px;
+}
+
+
+h1:before {
+  content: '☚';
+  color: white;
+  margin-right: 5px;
+}
+
+.headcontainer > h1 {
+  color:white;
 }
