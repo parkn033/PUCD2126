@@ -26,3 +26,12 @@ h1 {
 p + p {
   font-style: bold;
 }
+
+p:hover {
+  color: white;
+  background-color: orange;
+}
+
+p:active {
+  margin:15px;
+}
