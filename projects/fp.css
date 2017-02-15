@@ -21,6 +21,7 @@ p {
 
 h1 {
   font-family:arial;
+  color:white;
 }
 
 p + p {
@@ -28,8 +29,8 @@ p + p {
 }
 
 p:hover {
-  color: white;
-  background-color: orange;
+  color:white;
+  background-color:orange;
 }
 
 p:active {
