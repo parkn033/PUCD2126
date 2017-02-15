@@ -4,6 +4,8 @@ body {
 
 #container {
   background-color:white;
+  width:400px;
+  border:1px solid #000;
 }
 
 p {
@@ -13,6 +15,8 @@ p {
 
 .headcontainer {
   background-color:grey;
+  width:400px;
+  border:1px solid #000;
 }
 
 h1 {
