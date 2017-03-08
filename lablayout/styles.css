@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "prototype";
+  src: url('prototype.ttf');
+}
+
+body {
+  background-color:white;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    width:350px;
+    font-family:"prototype";
+}
+
+.flex-container > * {
+    padding: 35px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    width:650px;
+    height:auto;
+    font-family:"times";
+    left:500px;
+    top:70px;
+    position:absolute;
+}
+
+.flex-container2 > * {
+    padding: 35px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
+
+h2 {
+  font-size:20px;
+  font-weight:lighter;
+}
+
+h3 {
+  position:absolute;
+  left:400px;
+  font-family:"prototype";
+  font-size:15px;
+  font-weight:lighter;
+  color:grey;
+}
+
+#col {
+  width:380px;
+  padding: 35px;
+  font-family: times;
+  line-height:25px;
+}
+
+p2 {
+  font-family: times;
+  font-size:13px;
+  position:absolute;
+  top:940px;
+}
+
+.button {
+  width:50px;
+  height:30px;
+  background-color:black;
+  text-align:center;
+  position:absolute;
+  left:1065px;
+  top:1120px;
+  color:black;
+}
+
+.button:hover {
+  background-color:grey;
+}
+
+a {
+  color:black;
+}

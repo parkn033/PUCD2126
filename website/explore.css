@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "satelite";
+  src: url('satellite.otf');
+}
+
+@font-face {
+  font-family: "steelfish";
+  src: url('steelfish.otf');
+}
+
+body {
+  background-color:black;
+}
+
+h1 {
+  color: white;
+  text-align:center;
+  top:19%;
+  position:relative;
+  font-size:180px;
+  font-family:"steelfish";
+}
+
+div.hr {
+background: #fff  no-repeat scroll center;
+margin-left: 10px;
+margin-top:13%;
+left:18%;
+width:60em;
+height:.5em;
+color:white;
+position:relative;
+}
+
+div.hr hr {
+display: none;
+}
+
+.headcontainer2 {
+  background-color:black;
+  color:lime;
+  margin-top:3%;
+  font-size:180px;
+  text-align:center;
+  font-family:"steelfish";
+  -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+direction: rtl;
+unicode-bidi: bidi-override;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+h2 {
+  color:white;
+  font-family:"steelfish";
+  font-size:50px;
+  top:10px;
+  left:10px;
+}

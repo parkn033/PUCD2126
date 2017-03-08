@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "prototype";
+  src: url('prototype.ttf');
+}
+
+body {
+  background-color:white;
+}
+
+.footnotecontainer {
+  position:absolute;
+  background-color:white;
+  width:160px;
+  height:700px;
+  top:69%;
+  font-size:9px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    width:500px;
+    height:auto;
+    font-family:"times";
+    left:230px;
+    top:70px;
+    position:absolute;
+    background-color:white;
+    line-height:25px;
+}
+
+.flex-container > * {
+    padding: 35px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    width:400px;
+    height:auto;
+    font-family:"times";
+    left:730px;
+    top:102px;
+    position:absolute;
+    background-color:white;
+    line-height:25px;
+}
+
+.flex-container > * {
+    padding: 35px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+h1 {
+  position:absolute;
+  left:1200px;
+  top:200px;
+  font-family:"prototype";
+  font-size:15px;
+  font-weight:lighter;
+  color:grey;
+}
+
+h2 {
+  position:absolute;
+  left:1150px;
+  top:300px;
+  font-family:"prototype";
+  font-size:12px;
+  font-weight:lighter;
+  color:black;
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+h3 {
+  position:absolute;
+  left:1138px;
+  top:437px;
+  font-family:"prototype";
+  font-size:10px;
+  font-weight:lighter;
+  color:grey;
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+
+
+.button {
+  width:50px;
+  height:30px;
+  background-color:black;
+  text-align:center;
+  position:absolute;
+  left:125px;
+  top:125px;
+  color:black;
+}
+
+.button:hover {
+  background-color:grey;
+}
+
+a {
+  color:black;
+}

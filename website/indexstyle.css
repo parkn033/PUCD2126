@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "steelfish";
+  src: url('steelfish.otf');
+}
+
+@font-face {
+  font-family: "satelite";
+  src: url('satellite.otf');
+}
+
+
+body {
+  background-color:black;
+}
+
+.headcontainer {
+  background-color:black;
+  margin-top:20%;
+  color:white;
+  font-size:160px;
+  text-align:center;
+  font-family:"steelfish";
+}
+
+a {
+  color:white;
+  top:50%
+  font-size:50px;
+  text-align:center;
+  position:relative;
+  margin-top:40%;
+  font-family:"satellite";
+}
+
+div.hr {
+background: #fff  no-repeat scroll center;
+margin-left: 0em;
+margin-right: 15em;
+width:90em;
+height:.5em;
+color:white;
+position:relative;
+}
+
+div.hr hr {
+display: none;
+}
+
+.circle {
+  border-radius:100px;
+  border-color:white;
+  border-width:1px;
+  border-style:solid;
+  padding:20px;
+  left:15%;
+  position:relative;
+}
+
+.circle:hover {
+  background-color:lime;
+}
+
+
+.circle2 {
+  border-radius:100px;
+  border-color:white;
+  border-width:1px;
+  border-style:solid;
+  padding:20px;
+  left:35%;
+}
+
+.circle2:hover {
+  background-color:lime;
+}
+
+.circle3 {
+  border-radius:100px;
+  border-color:white;
+  border-width:1px;
+  border-style:solid;
+  padding:20px;
+  left:55%;
+}
+
+.circle3:hover {
+  background-color:lime;
+}
+
+.headcontainer2 {
+  background-color:black;
+  color:lime;
+  font-size:160px;
+  text-align:center;
+  font-family:"steelfish";
+  -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+direction: rtl;
+unicode-bidi: bidi-override;
+}
