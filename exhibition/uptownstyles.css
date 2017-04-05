@@ -95,15 +95,14 @@ a:hover {
 }
 
 
-#flexcontainer {
-  width:47em;
-  margin-left:0%;
-  position:relative;
+.flexcontainer {
   padding:0px;
-  /*display:flex;*/
-  display: inline-block;
-  float:left;
-  clear:both;
+  overflow:hidden;
+  border-bottom:4px red solid;
+}
+
+.flexcontainer2 {
+
 }
 
 h1 {
@@ -243,7 +242,7 @@ margin-left:0;
   background-color:black;
   position:absolute;
   left:26%;
-  top:150%;
+  top:156%;
   padding:5px;
 }
 
@@ -252,6 +251,6 @@ margin-left:0;
   background-color:black;
   position:absolute;
   left:31%;
-  top:150%;
+  top:156%;
   padding:5px;
 }

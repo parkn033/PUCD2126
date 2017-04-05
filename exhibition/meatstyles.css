@@ -84,17 +84,6 @@ top:2%;
 left:23%;
 }
 
-#flexcontainer {
-  width:47em;
-  margin-left:0%;
-  position:relative;
-  padding:0px;
-  /*display:flex;*/
-  display: inline-block;
-  float:left;
-  clear:both;
-}
-
 h1 {
   font-family: "futura";
   font-weight: bold;
@@ -155,6 +144,8 @@ margin-left:0;
 
 .flexcontainer {
   padding:0px;
+  overflow:hidden;
+  border-bottom:4px red solid;
 }
 
 .hr4 {
@@ -231,8 +222,8 @@ margin-left:0;
   font-family:"futura";
   background-color:black;
   position:absolute;
-  left:23%;
-  top:450%;
+  left:26%;
+  top:460%;
   padding:5px;
 }
 
@@ -240,7 +231,11 @@ margin-left:0;
   font-family:"futura";
   background-color:black;
   position:absolute;
-  left:28%;
-  top:450%;
+  left:30%;
+  top:460%;
   padding:5px;
+}
+
+.flexcontainers {
+
 }

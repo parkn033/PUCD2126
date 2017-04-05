@@ -154,6 +154,8 @@ margin-left:0;
 
 .flexcontainer {
   padding:0px;
+  overflow:hidden;
+  border-bottom:4px red solid;
 }
 
 .hr4 {

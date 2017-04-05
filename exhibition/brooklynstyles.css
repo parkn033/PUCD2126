@@ -154,6 +154,8 @@ margin-left:0;
 
 .flexcontainer {
   padding:0px;
+  overflow:hidden;
+  border-bottom:4px red solid;
 }
 
 .hr4 {
@@ -231,7 +233,7 @@ margin-left:0;
   background-color:black;
   position:absolute;
   left:26%;
-  top:144%;
+  top:147.5%;
   padding:5px;
 }
 
@@ -240,6 +242,6 @@ margin-left:0;
   background-color:black;
   position:absolute;
   left:31%;
-  top:144%;
+  top:147.5%;
   padding:5px;
 }
