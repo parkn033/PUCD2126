@@ -1,0 +1,245 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    font-family:"futura", sans-serif;
+}
+
+@font-face {
+  font-family: "steelfish";
+  src: url('steelfish.otf');
+}
+
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+@font-face {
+  font-family:"futurab";
+  src: url('futurbol.ttf');
+}
+
+@font-face {
+  font-family:"futurabi";
+  src: url('futurboli.ttf');
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    border: none;
+    display: inline-block;
+}
+
+.grid-base{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+
+.grid-base .col-1{
+    height: 3000px;
+}
+
+body {
+  background-color:white;
+}
+
+#boxtitle {
+  font-family:"futura";
+  font-size:120px;
+  position:relative;
+  text-align:center;
+  top:15px;
+}
+
+.hr {
+background: red;  no-repeat scroll center;
+width:40em;
+height:0.3em;
+color:black;
+position:relative;
+top:2%;
+left:28%;
+}
+
+a {
+  font-family:"futura";
+  color:black;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+}
+
+h1 {
+  font-family: "futura";
+  font-weight: bold;
+  font-size:20px;
+  color: #000000;
+  position:relative;
+  margin-top:0px;
+}
+
+h2 {
+  font-family: "futura";
+  font-size:13px;
+  color: #000000;
+  position:relative;
+  margin-top:75px;
+}
+
+p {
+  font-family: "futura";
+  font-size:11px;
+  color: #000000;
+  position:relative;
+  margin-bottom:20px;
+}
+.wrapper {
+  max-width:47em;
+  margin:0 auto;
+}
+
+.hr2 {
+background: red;  no-repeat scroll center;
+width:47em;
+height:0.3em;
+color:black;
+position:relative;
+top:40%;
+left:23%;
+}
+
+.tier-media {
+position:relative;
+margin-left:0;
+}
+
+.hr3 {
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:83%;
+  left:23%;
+}
+
+.tier-content {
+  position:relative;
+}
+
+.flexcontainer {
+  padding:0px;
+}
+
+.hr4 {
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:118%;
+  left:23%;
+}
+
+.hr5{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:160%;
+  left:23%;
+}
+
+.hr6{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:202%;
+  left:23%;
+}
+
+.hr7{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:246%;
+  left:23%;
+}
+
+.hr8{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:288%;
+  left:23%;
+}
+
+.hr9{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:330%;
+  left:23%;
+}
+
+.hr10{
+  background: red;  no-repeat scroll center;
+  width:47em;
+  height:0.3em;
+  color:black;
+  position:relative;
+  top:372%;
+  left:23%;
+}
+
+#boxtitle6 {
+  font-family:"futura";
+  background-color:black;
+  position:absolute;
+  left:26%;
+  top:144%;
+  padding:5px;
+}
+
+#boxtitle7 {
+  font-family:"futura";
+  background-color:black;
+  position:absolute;
+  left:31%;
+  top:144%;
+  padding:5px;
+}

@@ -10,9 +10,9 @@ body {
 .footnotecontainer {
   position:absolute;
   background-color:white;
-  width:160px;
+  width:130px;
   height:700px;
-  top:69%;
+  top:55%;
   font-size:9px;
 }
 
@@ -22,7 +22,7 @@ body {
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     text-align: left;
-    width:500px;
+    width:400px;
     height:auto;
     font-family:"times";
     left:230px;
@@ -47,22 +47,87 @@ body {
     width:400px;
     height:auto;
     font-family:"times";
-    left:730px;
-    top:102px;
+    left:780px;
+    top:70px;
     position:absolute;
     background-color:white;
     line-height:25px;
 }
 
-.flex-container > * {
+.flex-container2 > * {
     padding: 35px;
     -webkit-flex: 1 100%;
     flex: 1 100%;
 }
 
+.button {
+  width:50px;
+  height:30px;
+  background-color:black;
+  text-align:center;
+  position:absolute;
+  left:125px;
+  top:145px;
+  color:black;
+}
+
+.button:hover {
+  background-color:grey;
+}
+
+a {
+  color:black;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    border:white;
+    display: inline-block;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 3000px;
+}
+
+.footnotecontainer.col-2 {
+  width:150px;
+}
+
+.folio.col-1{
+  left:auto;
+}
+
+.flex-container.col-4{
+  width:500px;
+}
+
+.flex-container2.col-4{
+  width:500px;
+}
+
 h1 {
   position:absolute;
-  left:1200px;
+  left:1350px;
   top:200px;
   font-family:"prototype";
   font-size:15px;
@@ -72,7 +137,7 @@ h1 {
 
 h2 {
   position:absolute;
-  left:1150px;
+  left:1300px;
   top:300px;
   font-family:"prototype";
   font-size:12px;
@@ -85,7 +150,7 @@ h2 {
 
 h3 {
   position:absolute;
-  left:1138px;
+  left:1280px;
   top:437px;
   font-family:"prototype";
   font-size:10px;
@@ -97,22 +162,38 @@ h3 {
 }
 
 
+@media screen (max-width: 100px){
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
 
-.button {
-  width:50px;
-  height:30px;
-  background-color:black;
-  text-align:center;
-  position:absolute;
-  left:125px;
-  top:125px;
-  color:black;
-}
+  .meta{
+    margin-left: 0;
+  }
 
-.button:hover {
-  background-color:grey;
-}
+  @media screen and (max-width: 1560px){
+    .col-m-5 {width:50%;}
+  }
 
-a {
-  color:black;
-}
+  @media screen and (max-width:760px){
+    [class*="col-"] {
+      width:100%
+    }
+
+    .content {
+      margin-left:0;
+    }
+
+    .meta{
+      margin-left:0;
+    }
+  }

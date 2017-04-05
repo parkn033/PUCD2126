@@ -38,7 +38,6 @@ body {
 }
 
 .flex-container2 > * {
-    padding: 35px;
     -webkit-flex: 1 100%;
     flex: 1 100%;
 }
@@ -51,7 +50,7 @@ h2 {
 }
 
 h3 {
-  position:absolute;
+  position:relative;
   left:400px;
   font-family:"prototype";
   font-size:15px;
@@ -59,17 +58,9 @@ h3 {
   color:grey;
 }
 
-#col {
-  width:380px;
-  padding: 35px;
-  font-family: times;
-  line-height:25px;
-}
-
 p2 {
   font-family: times;
   font-size:13px;
-  position:absolute;
   top:940px;
 }
 
@@ -80,7 +71,7 @@ p2 {
   text-align:center;
   position:absolute;
   left:1065px;
-  top:1120px;
+  top:1100px;
   color:black;
 }
 
@@ -91,3 +82,88 @@ p2 {
 a {
   color:black;
 }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    padding:25px;
+    border: white;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 3000px;
+}
+
+.content.col-3{
+  margin-left:28px;
+  position:aboslute;
+  left:0px;
+}
+.content.col-6{
+  margin-left:25%;
+}
+
+.content.col-10{
+  margin-left:8.33%;
+}
+
+.content.content-bump.col-6{
+  margin-left:0%;
+}
+
+.content.col-8{
+  margin-left:16.66%;
+}
+
+@media screen (max-width: 100px){
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+
+  .meta{
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 1560px){
+    .col-m-5 {width:50%;}
+  }
+
+  @media screen and (max-width:760px){
+    [class*="col-"] {
+      width:100%
+    }
+
+    .content {
+      margin-left:0;
+    }
+
+    .meta{
+      margin-left:0;
+    }
+  }

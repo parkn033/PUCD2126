@@ -1,0 +1,156 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    font-family:"futura", sans-serif;
+}
+
+@font-face {
+  font-family: "steelfish";
+  src: url('steelfish.otf');
+}
+
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+@font-face {
+  font-family:"futurab";
+  src: url('futurbol.ttf');
+}
+
+@font-face {
+  font-family:"futurabi";
+  src: url('futurboli.ttf');
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    border: 1px dashed rgba(255,0,0,0.3);
+    display: inline-block;
+}
+
+.grid-base{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+
+.grid-base .col-1{
+    height: 3000px;
+}
+
+body {
+  background-color:white;
+}
+
+#boxtitle {
+  font-family:"futura";
+  font-size:120px;
+  position:relative;
+  text-align:center;
+  top:15px;
+}
+
+.hr {
+background: red;  no-repeat scroll center;
+width:47em;
+height:0.3em;
+color:black;
+position:relative;
+top:2%;
+left:23%;
+}
+
+a {
+  font-family:"futura";
+  color:black;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+}
+
+#boxtitle6 {
+  font-family:"futura";
+  background-color:black;
+  position:absolute;
+  left:23%;
+  padding:10px;
+}
+
+#boxtitle7 {
+  font-family:"futura";
+  background-color:black;
+  position:absolute;
+  left:28%;
+  padding:10px;
+}
+
+
+#photos {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;
+}
+
+#photos img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
