@@ -240,17 +240,20 @@ margin-left:0;
 #boxtitle6 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
-  left:26%;
-  top:156%;
+  position:relative;
+  width:40px;
+  left:29%;
   padding:5px;
+  display:inline-block;
 }
+
 
 #boxtitle7 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
-  left:31%;
-  top:156%;
+  position:relative;
   padding:5px;
+  width:70px;
+  left:33%;
+  display:inline-block;
 }

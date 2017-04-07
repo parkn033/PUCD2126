@@ -330,20 +330,24 @@ margin-left:0;
   left:23%;
 }
 
+
 #boxtitle6 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
+  position:relative;
+  width:40px;
   left:26%;
-  top:64%;
   padding:5px;
+  display:inline-block;
 }
+
 
 #boxtitle7 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
-  left:31%;
-  top:64%;
+  position:relative;
   padding:5px;
+  width:70px;
+  left:30%;
+  display:inline-block;
 }

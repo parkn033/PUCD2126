@@ -337,17 +337,19 @@ margin-left:0;
 #boxtitle6 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
+  position:relative;
+  width:40px;
   left:26%;
-  top:65%;
   padding:5px;
+  display:inline-block;
 }
 
 #boxtitle7 {
   font-family:"futura";
   background-color:black;
-  position:absolute;
-  left:31%;
-  top:65%;
+  position:relative;
   padding:5px;
+  width:80px;
+  left:30%;
+  display:inline-block;
 }
