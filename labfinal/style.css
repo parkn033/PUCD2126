@@ -1,0 +1,200 @@
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+body {
+  font-family:"futura";
+  background-color:black;
+  color:white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+article img {
+  float:left;
+  margin-left:10px;
+  margin-bottom:10px;
+  padding-right:20px;
+}
+
+#content {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+#content p {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction:row;
+  background-color:black;
+  color: #fff;
+  list-style-type: none;
+  font-family:"futura";
+}
+
+.nav li{
+  width: 20%;
+  padding: 1% 1%;
+  margin-left:3%;
+  text-align:center;
+}
+
+.nav a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.nav li:hover {
+  color:red;
+}
+
+.nav a:hover{
+  color:red;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.full-bleed {
+  background: url('assets/p1.jpg');
+  color: white;
+  text-align: center;
+  height:100vh;
+  background-position: bottom center;
+  background-size:70%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:2%;
+}
+
+h1 {
+  color:white;
+  font-size:100px;
+  font-family:"futura";
+  position:relative;
+}
+
+h2 {
+  margin-top:0%;
+  text-align:center;
+  font-size:50px;
+  margin-bottom:2%;
+}
+
+.artbox {
+  width:300px;
+  height:500px;
+}
+
+.artbox2 {
+  width:450px;
+  height:500px;
+}
+
+.artbox3 {
+  width:350px;
+  height:500px;
+}
+
+article {
+  display:flex;
+  flex:right;
+}
+
+#content p:first-child {
+  margin-top: 0px;
+}
+
+#search {
+  text-align:center;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+.artworks > .title {
+  color:red;
+  text-align:center;
+  font-size:70px;
+}
+
+/* for-phone-only */
+@media (max-width: 599px) {
+
+.nav {
+  display: flex;
+  font-size:18px;
+  flex-direction:column;
+  background-color:black;
+  color: #fff;
+  font-size:15px;
+  list-style-type: none;
+  font-family:"futura";
+}
+
+.full-bleed > h1 {
+  font-size:60px;
+}
+
+.artworks > .title {
+  color:red;
+  text-align:center;
+  font-size:50px;
+}
+
+ }
+
+@media (max-width: 800px) {
+
+.full-bleed > h1 {
+    font-size:60px;
+  }
+
+.nav {
+  font-size:25px;
+  flex-direction:column;
+  display:flex;
+}
+
+
+
+ }
+
+
+@media (min-width: 900px) {
+
+  .nav {
+    font-size:30px;
+  }
+
+  .full-bleed > h1 {
+    font-size:150px;
+  }
+
+
+ }
