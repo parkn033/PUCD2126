@@ -134,13 +134,13 @@ span {
   display:flex;
 }
 
-.sp1 {
+.o1 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/sp2.jpg');
+  background: url('assets/o1.jpg');
   background-size:100%;
   background-position:top;
   margin-top:4.5%;
@@ -159,16 +159,16 @@ p {
   display:flex;
 }
 
-.sp2 {
+.o2 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/sp3.jpg');
+  background: url('assets/o4.jpg');
   background-size:100%;
   background-position:top;
-  margin-top:4.5%;
+  margin-top:3.5%;
   margin-right:4.5%
 }
 
@@ -182,26 +182,26 @@ p {
   margin-left:1.5%
 }
 
-.sp3 {
+.o3 {
   display:flex;
   position:relative;
   float:left;
   height:38.5%;
   width:48%;
-  background: url('assets/sp1.jpg');
+  background: url('assets/o3.jpg');
   background-size:100%;
   background-position: center;
   margin-top:13.5%;
   margin-left:3.5%
 }
 
-.sp4 {
+.o4 {
   display:flex;
   position:relative;
   float:right;
   height:31%;
   width:41%;
-  background: url('assets/sp4.jpg');
+  background: url('assets/o2.jpg');
   background-size:100.9%;
   background-position:center;
   margin-top:2.5%;

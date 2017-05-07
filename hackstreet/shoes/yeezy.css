@@ -134,14 +134,14 @@ span {
   display:flex;
 }
 
-.cl1 {
+.y1 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/cl4.jpg');
-  background-size:100%;
+  background: url('assets/y1.jpg');
+  background-size:150%;
   background-position:top;
   margin-top:4.5%;
   margin-right:4.5%
@@ -159,13 +159,13 @@ p {
   display:flex;
 }
 
-.cl2 {
+.y2 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/cl1.jpg');
+  background: url('assets/y4.jpg');
   background-size:100%;
   background-position:top;
   margin-top:3.5%;
@@ -182,28 +182,28 @@ p {
   margin-left:1.5%
 }
 
-.cl3 {
+.y3 {
   display:flex;
   position:relative;
   float:left;
   height:38.5%;
   width:48%;
-  background: url('assets/cl2.jpg');
-  background-size:100%;
-  background-position: bottom center;
+  background: url('assets/y3.jpg');
+  background-size:160%;
+  background-position: right center;
   margin-top:13.5%;
   margin-left:3.5%
 }
 
-.cl4 {
+.y4 {
   display:flex;
   position:relative;
   float:right;
   height:31%;
   width:41%;
-  background: url('assets/cl3.jpg');
+  background: url('assets/y2.jpg');
   background-size:100.9%;
-  background-position:bottom center;
+  background-position:center;
   margin-top:2.5%;
   margin-right:4.5%
 }

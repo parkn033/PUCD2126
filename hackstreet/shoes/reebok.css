@@ -134,13 +134,13 @@ span {
   display:flex;
 }
 
-.cl1 {
+.r1 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/cl4.jpg');
+  background: url('assets/r1.jpg');
   background-size:100%;
   background-position:top;
   margin-top:4.5%;
@@ -159,13 +159,13 @@ p {
   display:flex;
 }
 
-.cl2 {
+.r2 {
   display:flex;
   position:relative;
   float:right;
   height:21.5%;
   width:41%;
-  background: url('assets/cl1.jpg');
+  background: url('assets/r4.jpg');
   background-size:100%;
   background-position:top;
   margin-top:3.5%;
@@ -182,28 +182,28 @@ p {
   margin-left:1.5%
 }
 
-.cl3 {
+.r3 {
   display:flex;
   position:relative;
   float:left;
   height:38.5%;
   width:48%;
-  background: url('assets/cl2.jpg');
+  background: url('assets/r3.jpg');
   background-size:100%;
-  background-position: bottom center;
+  background-position: center;
   margin-top:13.5%;
   margin-left:3.5%
 }
 
-.cl4 {
+.r4 {
   display:flex;
   position:relative;
   float:right;
   height:31%;
   width:41%;
-  background: url('assets/cl3.jpg');
+  background: url('assets/r2.jpg');
   background-size:100.9%;
-  background-position:bottom center;
+  background-position:center;
   margin-top:2.5%;
   margin-right:4.5%
 }
