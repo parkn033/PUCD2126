@@ -1,0 +1,273 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+@font-face {
+  font-family:"bebas";
+  src: url('../bebas.ttf');
+}
+
+@font-face {
+  font-family:"futurab";
+  src: url('futurab.ttf');
+}
+
+
+body {
+  background-color: white;
+}
+
+.topbar{
+  background: url('wall.jpg');
+  height:10%;
+  background-position: bottom center;
+  background-size:100%;
+  position:relatve;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo{
+  width:400px;
+  height:80px;
+  background-color:black;
+  margin-left:30%;
+  position:relative;
+  text-align:center;
+  margin-top:0%;
+  margin-bottom:0%;
+  padding:13px;
+}
+
+.logo > .logotitle {
+  font-size:100px;
+  color:white;
+  font-family:"bebas";
+}
+
+.logo a{
+  text-decoration:none;
+  color:white;
+}
+
+.nav{
+  display:flex;
+  flex-direction:row;
+  color:black;
+  color: #fff;
+  list-style-type: none;
+  font-family:"bebas";
+  width:auto;
+  height:auto;
+  font-size:50px;
+}
+
+.nav li{
+  width: 20%;
+  padding-top:1%;
+  margin-left:0;
+  text-align:center;
+}
+
+.nav a{
+  text-decoration:none;
+  color:black;
+}
+
+.nav a:active{
+  color:red;
+}
+
+.blackbar {
+  width:100%;
+  background-color:black;
+  height:1.5%;
+}
+
+.blackbar2{
+  width:100%;
+  background-color:black;
+  height:1.5%;
+  margin-top:0%;
+}
+
+span {
+  color:red;
+}
+
+
+.vetements{
+  background: url('assets/vetements.png');
+  color: white;
+  text-align: center;
+  height:25%;
+  background-position: bottom center;
+  background-size:160%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:4%;
+  font-size:40px;
+  position:relatve;
+  margin-left:5%;
+  width:43%;
+  float:left;
+}
+
+.vetements a {
+  text-decoration:none;
+  color:white;
+}
+
+.vetements a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.offwhite{
+  background: url('assets/offwhite.png');
+  color: white;
+  text-align: center;
+  height:25%;
+  background-position: bottom center;
+  background-size:110%;
+  font-family:"futura";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:4%;
+  font-size:40px;
+  position:relatve;
+  margin-right:5%;
+  width:43%;
+  float:right;
+}
+
+.offwhite a {
+  text-decoration:none;
+  color:white;
+}
+
+.offwhite a:active {
+  text-decoration:none;
+  color:red;
+}
+
+
+.supreme{
+  background: url('assets/supreme.jpg');
+  color: white;
+  text-align: center;
+  height:25%;
+  background-position: bottom center;
+  background-size:110%;
+  font-family:"futura";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:4%;
+  font-size:40px;
+  position:relatve;
+  margin-left:5%;
+  width:43%;
+  float:left;
+}
+
+.supreme a {
+  text-decoration:none;
+  color:white;
+}
+
+.supreme a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.yeezy{
+  background: url('assets/yeezy.jpg');
+  color: white;
+  text-align: center;
+  height:25%;
+  background-position: bottom center;
+  background-size:110%;
+  font-family:"futura";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:4%;
+  font-size:40px;
+  position:relatve;
+  margin-right:5%;
+  width:43%;
+  float:right;
+}
+
+.yeezy a {
+  text-decoration:none;
+  color:white;
+}
+
+.yeezy a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.vlone{
+  background: url('assets/vlone.jpg');
+  color: white;
+  text-align: center;
+  height:23%;
+  background-position: bottom center;
+  background-size:110%;
+  font-family:"futura";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:4%;
+  font-size:40px;
+  position:relatve;
+  margin-right:5%;
+  margin-left:5%;
+  width:90%;
+  float:left;
+}
+
+.vlone a {
+  text-decoration:none;
+  color:white;
+}
+
+.vlone a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.blackbar3{
+  width:100%;
+  background-color:black;
+  height:2.8%;
+  position:absolute;
+  top:97.5%;
+}
+
+.blackbar3 > a {
+  color:white;
+  font-size:30px;
+  font-family:"futura";
+  float:right;
+  margin-right:4%;
+  text-decoration:none;
+}

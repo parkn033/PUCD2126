@@ -1,0 +1,279 @@
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+@font-face {
+  font-family:"bebas";
+  src: url('bebas.ttf');
+}
+
+@font-face {
+  font-family:"futurab";
+  src: url('futurab.ttf');
+}
+
+
+body {
+  background-color: white;
+}
+
+.topbar{
+  background: url('wall.jpg');
+  height:10%;
+  background-position: bottom center;
+  background-size:100%;
+  position:relatve;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo{
+  width:400px;
+  height:80px;
+  background-color:black;
+  margin-left:30%;
+  position:relative;
+  text-align:center;
+  margin-top:0%;
+  margin-bottom:0%;
+  padding:13px;
+}
+
+.logo > .logotitle {
+  font-size:100px;
+  color:white;
+  font-family:"bebas";
+}
+
+.logo a{
+  text-decoration:none;
+  color:white;
+}
+
+.nav{
+  display:flex;
+  flex-direction:row;
+  color:black;
+  color: #fff;
+  list-style-type: none;
+  font-family:"bebas";
+  width:auto;
+  height:auto;
+  font-size:50px;
+}
+
+.nav li{
+  width: 20%;
+  padding-top:1%;
+  margin-left:0;
+  text-align:center;
+}
+
+.nav a{
+  text-decoration:none;
+  color:black;
+}
+
+.nav a:active{
+  color:red;
+}
+
+.blackbar {
+  width:100%;
+  background-color:black;
+  height:1.5%;
+}
+
+.blackbar2{
+  width:100%;
+  background-color:black;
+  height:1.5%;
+  margin-top:0%;
+}
+
+.article {
+  background: url('assets/redarticle.png');
+  color: white;
+  text-align: center;
+  height:20%;
+  background-position: bottom center;
+  background-size:129%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2.5%;
+  font-size:30px;
+  position:relatve;
+  margin-left:2.5%;
+  margin-bottom:2.5%;
+  font-style:bold;
+  width:42.5%;
+  float:left;
+}
+
+.article a {
+  text-decoration:none;
+  color:white;
+}
+
+.article a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.article2 {
+  background: url('assets/gucci.jpg');
+  color: white;
+  text-align: center;
+  height:50%;
+  background-position: bottom top;
+  background-size:129%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2.5%;
+  font-size:30px;
+  position:relatve;
+  margin-left:0%;
+  margin-right:2.5%;
+  font-style:bold;
+  width:49.5%;
+  float:right;
+}
+
+.article2 a {
+  text-decoration:none;
+  color:white;
+}
+
+.article2 a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.article3{
+  background: url('assets/palace.jpg');
+  color: white;
+  text-align: center;
+  height:37%;
+  background-position: top left;
+  background-size:129%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:0%;
+  font-size:30px;
+  position:relatve;
+  margin-left:2.5%;
+  font-style:bold;
+  width:42.5%;
+  float:left;
+}
+
+.article3 a {
+  text-decoration:none;
+  color:white;
+}
+
+.article3 a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.article4{
+  background: url('assets/cds.jpg');
+  color: white;
+  text-align: center;
+  height:27%;
+  background-position: bottom center;
+  background-size:100%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2.5%;
+  font-size:30px;
+  position:relatve;
+  margin-right:2.5%;
+  font-style:bold;
+  width:49.5%;
+  float:right;
+}
+
+.article4 a {
+  text-decoration:none;
+  color:white;
+}
+
+.article4 a:active {
+  text-decoration:none;
+  color:red;
+}
+
+.article5{
+  background: url('assets/mr.jpg');
+  color: white;
+  text-align: center;
+  height:18.5%;
+  background-position: top center;
+  background-size:116%;
+  font-family:"futura";
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2.5%;
+  font-size:30px;
+  position:relatve;
+  margin-left:2.5%;
+  font-style:bold;
+  width:42.5%;
+  float:left;
+}
+
+.article5 a {
+  text-decoration:none;
+  color:white;
+}
+
+.article5 a:active {
+  text-decoration:none;
+  color:red;
+}
+
+span {
+  color:red;
+}
+
+
+.blackbar3{
+  width:100%;
+  background-color:black;
+  height:2.5%;
+  position:absolute;
+  top:97.5%;
+}
+
+.blackbar3 > a {
+  color:white;
+  font-size:30px;
+  font-family:"futura";
+  float:right;
+  margin-right:4%;
+  text-decoration:none;
+}
