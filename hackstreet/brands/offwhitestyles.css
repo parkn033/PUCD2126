@@ -1,0 +1,226 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face {
+  font-family:"futura";
+  src: url('futura.ttf');
+}
+
+@font-face {
+  font-family:"bebas";
+  src: url('../bebas.ttf');
+}
+
+@font-face {
+  font-family:"futurab";
+  src: url('futurab.ttf');
+}
+
+
+body {
+  background-color: white;
+}
+
+.topbar{
+  background: url('wall.jpg');
+  height:10%;
+  background-position: bottom center;
+  background-size:100%;
+  position:relatve;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo{
+  width:400px;
+  height:80px;
+  background-color:black;
+  margin-left:30%;
+  position:relative;
+  text-align:center;
+  margin-top:0%;
+  margin-bottom:0%;
+  padding:13px;
+}
+
+.logo > .logotitle {
+  font-size:100px;
+  color:white;
+  font-family:"bebas";
+}
+
+.logo a{
+  text-decoration:none;
+  color:white;
+}
+
+.nav{
+  display:flex;
+  flex-direction:row;
+  color:black;
+  color: #fff;
+  list-style-type: none;
+  font-family:"bebas";
+  width:auto;
+  height:auto;
+  font-size:50px;
+}
+
+.nav li{
+  width: 20%;
+  padding-top:1%;
+  margin-left:0;
+  text-align:center;
+}
+
+.nav a{
+  text-decoration:none;
+  color:black;
+}
+
+.nav a:active{
+  color:red;
+}
+
+.blackbar {
+  width:100%;
+  background-color:black;
+  height:1.5%;
+}
+
+.blackbar2{
+  width:100%;
+  background-color:black;
+  height:1.5%;
+  margin-top:0%;
+}
+
+span {
+  color:red;
+}
+
+
+.titleheader {
+  font-family:"bebas";
+  font-size:100px;
+  background-color:white;
+  height:auto;
+  width:0;
+  margin-top:4.5%;
+  margin-left:4.5%;
+  float:left;
+  position:relative;
+  display:flex;
+}
+
+.subheader {
+  font-family:"futura";
+  font-size:40px;
+  background-color:white;
+  height:5%;
+  width:50%;
+  margin-top:29%;
+  margin-left:0;
+  float:left;
+  position:relative;
+  display:flex;
+}
+
+.op1 {
+  display:flex;
+  position:relative;
+  float:right;
+  height:21.5%;
+  width:41%;
+  background: url('assets/op2.jpg');
+  background-size:100%;
+  background-position:top;
+  margin-top:4.5%;
+  margin-right:4.5%
+}
+
+p {
+  font-family:"futura";
+  font-size:30px;
+  background-color:white;
+  height:auto;
+  margin-top:3%;
+  margin-left:4.5%;
+  float:left;
+  position:relative;
+  display:flex;
+}
+
+.op2 {
+  display:flex;
+  position:relative;
+  float:right;
+  height:21.5%;
+  width:41%;
+  background: url('assets/op3.jpg');
+  background-size:100%;
+  background-position:top;
+  margin-top:4.5%;
+  margin-right:4.5%
+}
+
+.content {
+  display:flex;
+  position:relative;
+  float:left;
+  height:11.5%;
+  width:53%;
+  margin-top:6%;
+  margin-left:1.5%
+}
+
+.op3 {
+  display:flex;
+  position:relative;
+  float:left;
+  height:38.5%;
+  width:47%;
+  background: url('assets/op1.jpg');
+  background-size:125%;
+  background-position:top;
+  margin-top:8.5%;
+  margin-left:3.5%
+}
+
+.op4 {
+  display:flex;
+  position:relative;
+  float:right;
+  height:29%;
+  width:41%;
+  background: url('assets/op4.jpg');
+  background-size:100.9%;
+  background-position:center;
+  margin-top:4.5%;
+  margin-right:4.5%
+}
+
+.blackbar3{
+  width:100%;
+  background-color:black;
+  height:2.5%;
+  position:absolute;
+  top:97.5%;
+}
+
+.blackbar3 > a {
+  color:white;
+  font-size:30px;
+  font-family:"futura";
+  float:right;
+  margin-right:4%;
+  text-decoration:none;
+}
